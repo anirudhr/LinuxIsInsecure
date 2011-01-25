@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <!-- Slide meta data, remove/edit as you see fit -->
+        <title>Linux Is Insecure: Anirudh Ramachandran</title>
+        <meta name="generator" content="Organic... Edited heavily by hand because the author is slightly retarded in some ways." />
+        <meta name="author" content="Anirudh Ramachandran" />
+        <meta name="company" content="Web Club" />
+        <meta name="email" content="me@anirudhr.co.cc" />
+        <meta name="date" content="2011-01-25" />
+        <meta name="venue" content="NITK Surathkal" />
+        <!-- Slippy core file and dependencies -->
+        <script type="text/javascript" src="jquery-1.4.2.min.js"></script>
+        <script type="text/javascript" src="jquery.history.js"></script>
+        <script type="text/javascript" src="slippy-0.9.0.js"></script>
+        <!-- Slippy structural styles -->
+        <link type="text/css" rel="stylesheet" href="slippy-0.9.0.css"/>
+        <!-- Slippy theme -->
+        <link type="text/css" rel="stylesheet" href="slippy-pure.css"/>
+        <!-- Syntax highlighting core file  -->
+        <script type="text/javascript" src="highlighter/shCore.js"></script>
+        <!-- Syntax highlighting brushes, remove those you don't need -->
+        <script type="text/javascript" src="highlighter/shBrushBash.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushCpp.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushCSharp.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushCss.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushDelphi.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushDiff.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushGroovy.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushJava.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushJScript.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushPhp.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushPlain.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushPython.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushRuby.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushScala.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushSql.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushVb.js"></script>
+        <script type="text/javascript" src="highlighter/shBrushXml.js"></script>
+        <!-- Syntax highlighting styles-->
+        <link type="text/css" rel="stylesheet" href="highlighter/shCore.css"/>
+        <link type="text/css" rel="stylesheet" href="highlighter/shThemeEclipse.css"/>
+        <!-- Slippy init code -->
+        <script type="text/javascript">
+            $(function() {
+                $(".slide").slippy({
+                    // settings go here
+                    // possible values are:
+                    //  - animLen, duration for default animations (0 = disabled)
+                    //  - animInForward, receives a slide and animates it
+                    //  - animInRewind, receives a slide and animates it
+                    //  - animOutForward, receives a slide and animates it
+                    //  - animOutRewind, receives a slide and animates it
+                    //  - baseWidth, defines the base for img resizing, if you don't want only
+                    //    full-width images, specify this as the pixel width of a slide so that
+                    //    images are scaled properly (default is 620px wide)
+                    //  - ratio, defines the width/height ratio of the slides, defaults to 1.3 (620x476)
+                });
+                SyntaxHighlighter.all();
+            });
+        </script>
+        <!-- Custom style for this deck -->
+        <style type="text/css">
+            .slide.nochrome {
+                border: 0;
+                background: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="slide">
+            <h1>Linux Is Insecure</h1> <!-- Slide One. holy shit massive deju vu!!! -->
+            <br/><br/>
+            <p>Run for your lives.</p>
+        </div>
+
+        <div class="slide">
+            <h1>Windoze Is Insecure.</h1> <!-- Obligatory introduction jazz. -->
+            <br/><br/>
+            <p>Viruses.<br/></p>
+            <p>Worms.<br/></p>
+            <p>etc.<br/></p>
+            <p>Internet Explorer.<br/></p>
+            <p>Unthinking users.<br/></p>
+        </div>
+
+        <div class="slide"> <!-- More drivel. -->
+            <h1>Alternatives?</h1>
+            <br/><br/>
+            <p>*nux.</p>
+            <p>Snow leopards and such jazz.</p>
+            <p>BSD.</p>
+            <p>(A Life?)</p>
+        </div>
+
+        <div class="slide"> <!-- Alice enters the rabbit hole now! -->
+            <h1>OK, I Changed My OS.</h1>
+            <br/><br/>
+            <p>But did <i>you</i> change?</p>
+        </div>
+
+        <div class="slide"> <!-- The myth starts to unravel. -->
+            <h1>Linux != Manna ?</h1>
+            <br/><br/>
+            <p>Seriously, you guys!</p>
+            <p>I hate you guys.</p>
+            <br/>
+            <p>But yes.</p>
+            <br/>
+            <p>Linux is <i>not</i> manna fallen from heaven.
+            <br/><br/><br/><br/>
+            <p>...</p>
+            <br/><br/><br/><br/>
+            <p>But... why not???</p>            
+        </div>
+
+        <div class="slide"> <!-- A Tribe Called Quest. -->
+            <h1>Get Down And Dirty</h1>
+            <br/><br/>
+            <p>Do iiiittttt!!!!!1</p>
+        </div>
+
+        <div class="slide"> <!-- A demonstration of getting to a root terminal by GRUB command line editing. -->
+            <h1>GRUBbing around.</h1>
+            <br/><br/>
+            <p>Oh yeah.</p>
+            <p>Dish the dirt.</p>
+            <p>(No more muddy metaphors, okay!)</p>
+        </div>
+
+        <div class="slide"> <!-- lkl: Linux KeyLogger sourceforge.net/projects/lkl -->
+            <h1>Keyboooooooored</h1>
+            <br/><br/>
+            <p>TIMBERRRR!!!!!</p>
+        </div>
+
+        <div class="slide"> <!-- Journalling file systems make it impossible for things like wipe to work. -->
+            <h1>Journal go BOOM!</h1>
+            <br/><br/>
+            <p>I pity da FOO</p>
+        </div>
+
+        <div class="slide"> <!-- Firesheep. How {lib,win}pcap entered pop culture. -->
+            <h1>Baaaaaaaa!</h1>
+            <br/><br/>
+            <p>Sheep In The Big City.</p>
+        </div>
+
+        <div class="slide"> <!-- Using xulrunner to run the SQLite Manager in standalone mode to access ~/.mozilla/firefox/WHATEVER.default/cookies.sqlite -->
+            <h1>Break That Cookie Jar</h1>
+            <br/><br/>
+            <p>Now You Have Something To Die For.</p>
+        </div>
+
+        <div class="slide"> <!-- Q/A session. -->
+            <h1>Gather around, kids!</h1>
+            <br/><br/>
+            <p>It's time for another fun-filled question session!</p>
+            <br/><br/>
+            <p>I know you folks. You don't ask questions too often anyway.</p>
+            <p>/goad</p>
+        </div>
+
+        <div class="slide"> <!-- I make sundry zany statements. Again. -->
+            <h1>Thank you Jesus (and Super Best Friends)!</h1>
+            <br/><br/>
+            <p>+ AVG + Kaspersky + DC++@NITK for changing my life forever.</p>
+            <p>+ A curious mind and a great peer set. YOU KNOW WHO YOU AAAAAARE!!!!!</p>
+            <p>+ Marathon @ Engi 2010</p>
+            <p>+ Google</p>
+            <p>+ Mr. T, Chuck Norris, Steely Dan and Quentin Tarantino</p>
+            <p>+ This slideshow brought to you by Slippy and insanity.</p>
+            <p>+ This talk brought to you by <b>Web Club</b></p>
+            <br/><br/>
+            <p>My next thinger: Possible NSE workshop at Tuxride.<br/>Trinity will not be shown hacking the Zion servers... unless I want to. </p>
+        </div>        
+        
+        <div class="layout" name="default">
+            <content>Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</content>
+            <div class="footer">
+                <span class="left">Anirudh R || me AT anirudhr DOT co DOT cc</span>
+                <span class="right">Web Club</span>
+                <hr class="defloat" />
+            </div>
+        </div>
+
+        <div class="layout nochrome" name="alt">
+            <content></content>
+        </div>
+    </body>
+</html>

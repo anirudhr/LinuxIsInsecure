@@ -1,0 +1,10 @@
+Linux Is Not Safe
+* Bootloader command line
+* lkl
+* Firesheep
+* ~/.mozilla/firefox/WHATEVER.default/cookies.sqlite
+	- http://groups.google.com/group/mozilla.support.firefox/browse_thread/thread/2b300e30667223ce/5654add1c1a0c1ce?lnk=gst&q=SQLite+&pli=1
+	- http://www.mozilla.org/projects/security/pki/nss/tools/
+* Hardening - https://wiki.ubuntu.com/Security/Features#Userspace%20Hardening
+* http://www.hellboundhackers.org/forum/i39m_about_to_float_an_unpopular_idea-16-15984_0.html
+* ext3/4 and the dangers of journalling
